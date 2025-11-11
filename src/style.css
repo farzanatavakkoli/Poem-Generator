@@ -91,6 +91,9 @@ form {
   white-space: pre-line;
   animation: fadeIn 1s ease-in-out;
 }
+.poem strong {
+  color: var(--primary-color);
+}
 footer {
   text-align: center;
   font-size: 0.8rem;
