@@ -9,29 +9,33 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-            AI Poem Generator
-        </h1>
-    </header>
-    <main>
-        <form action="">
-            <input type="text" placeholder="Enter the topic of the poem" required autofocus>
-            <input type="submit">
-        </form>
-        <div>
-            Do not go gentle into that good night,
-            <br>
-            Old age should burn and rave at close of day;
-            <br>
-            Rage, rage against the dying of the light.
-        </div>
-    </main>
-    <footer>
-        This project was coded by <a href="https://github.com/farzanatavakkoli" target="_blank">Farzana Tavakkoli</a> is
-        open sourced on <a href="https://github.com/farzanatavakkoli/Poem-Generator" target="_blank">on github</a> and
-        hosted <a href="https://poem-generator-chi.vercel.app/" target="_blank">on vercel.</a>
-    </footer>
+    <div class="container">
+        <header>
+            <h1>
+                AI Poem Generator
+            </h1>
+        </header>
+        <main>
+            <form action="">
+                <input type="text" placeholder="Enter the topic of the poem" required autofocus class="prompt">
+                <input type="submit" class="submit-button">
+            </form>
+            <div class="poem">
+                Do not go gentle into that good night,
+                <br>
+                Old age should burn and rave at close of day;
+                <br>
+                Rage, rage against the dying of the light.
+            </div>
+        </main>
+        <footer>
+            This project was coded by <a href="https://github.com/farzanatavakkoli" target="_blank">Farzana
+                Tavakkoli</a> is
+            open sourced on <a href="https://github.com/farzanatavakkoli/Poem-Generator" target="_blank">on github</a>
+            and
+            hosted <a href="https://poem-generator-chi.vercel.app/" target="_blank">on vercel.</a>
+        </footer>
+    </div>
     <script src="src/index.js"></script>
 </body>
 
