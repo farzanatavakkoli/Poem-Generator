@@ -1,6 +1,4 @@
 function displayPoem(response) {
-  console.log("Poem generated");
-
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("loading");
 
@@ -29,7 +27,6 @@ function generatePoem(event) {
 
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  console.log(`Generating poem: ${instructionInput.value}`);
   axios.get(apiUrl).then(displayPoem);
 }
 
