@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Poem Generator</title>
     <link rel="stylesheet" href="src/style.css">
 </head>
@@ -16,16 +17,11 @@
             </h1>
         </header>
         <main>
-            <form action="">
+            <form action="" id="Poem-Generator">
                 <input type="text" placeholder="Enter the topic of the poem" required autofocus class="prompt">
                 <input type="submit" class="submit-button">
             </form>
-            <div class="poem">
-                Do not go gentle into that good night,
-                <br>
-                Old age should burn and rave at close of day;
-                <br>
-                Rage, rage against the dying of the light.
+            <div class="poem" id="poem">
             </div>
         </main>
         <footer>
